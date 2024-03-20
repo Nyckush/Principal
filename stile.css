@@ -1,0 +1,38 @@
+*{
+    color:white;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background: #202020;
+}
+.arriba{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+    border-bottom: 1px solid rgb(255, 128, 0);
+    border-radius: 5px;
+    display: flex;
+    
+
+
+
+}
+
+/* N O M B R E  DEL S I T I O*/
+.nombrePrincipal{
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+.segundaParteNombrePrincipal{
+    color: red;
+    font-size:23px ;
+   
+    
+
+
+}
