@@ -7,16 +7,18 @@
 
 body{
     background: #202020;
+    font-family: "Kaisei HarunoUmi", serif;
 }
 .arriba{
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: black;
+    background-color:rgba(20, 20, 20, 0.5);
     border-bottom: 1px solid rgb(255, 128, 0);
     border-radius: 5px;
     display: flex;
 }
 .logo{
+    margin-left: 5px;
     width: 50px;
     height: 50px;
 }
@@ -28,20 +30,64 @@ body{
 
 .contenedorNombrePagina{
     display: flex;
+    margin-left: 3px;
    
 }
 .nombrePrincipal{
     font-size: 20px;
     margin-top: auto;
     margin-bottom: auto;
+   
+   
   
 
 }
 .segundaParteNombrePrincipal{
-    color: red;
+    color: rgb(255, 200, 0);
     font-size:23px ;
     margin-top: auto;
     margin-bottom: auto;
    
+
+}
+
+.cajaListaPrincipal{
+
+margin-left: 20px;
+display: flex;
+margin-top: auto;
+margin-bottom: auto;
+
+}
+
+
+.listaPrincipal{
+
+
+    margin-left:10px ;
+    list-style-type: none;
+
+
+
+
+
+}
+
+.listaPrincipal:hover{
+
+    border-bottom: solid 3px orangered;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    cursor: pointer;
+    transition: 0.4s;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+  font-family:  url( "https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap" 
+  )
+  ;
+
+    
 
 }
