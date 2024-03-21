@@ -15,24 +15,33 @@ body{
     border-bottom: 1px solid rgb(255, 128, 0);
     border-radius: 5px;
     display: flex;
-    
-
-
-
+}
+.logo{
+    width: 50px;
+    height: 50px;
 }
 
+
+
 /* N O M B R E  DEL S I T I O*/
+
+
+.contenedorNombrePagina{
+    display: flex;
+   
+}
 .nombrePrincipal{
     font-size: 20px;
     margin-top: auto;
     margin-bottom: auto;
+  
 
 }
 .segundaParteNombrePrincipal{
     color: red;
     font-size:23px ;
+    margin-top: auto;
+    margin-bottom: auto;
    
-    
-
 
 }
