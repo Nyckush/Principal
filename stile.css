@@ -91,3 +91,114 @@ margin-bottom: auto;
     
 
 }
+
+.fondo1{
+
+    background: linear-gradient(rgba(10, 10, 10,0.75),rgba(10,10,10,0.75)), url("imagenes/bandicam\ 2024-03-21\ 09-53-19-987.jpg");
+    margin-left: 10px;
+    margin-right: 10px;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    display:flex;
+   
+
+    
+
+}
+.cajaPoster1{
+     
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+
+
+}
+
+
+.poster1{
+  
+    height: 410px;
+   width: 300px;
+   border-radius: 15px;
+   border: 1px solid rgba(226, 93, 16, 0.808);
+}
+.cajaEstreno{
+
+    
+ width: 100%;
+    
+    
+   
+    
+}
+
+
+
+.cajaEstreno h3{
+    width: 100%;
+    display: flex;
+   justify-content: center;
+        margin-top: 10px;
+            font-size: 30px;
+            flex-direction: row;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.286);
+       
+}
+
+
+.cajaInformacion{
+    margin-top: 10px;
+    width: 100%;
+display: flex;
+   
+}
+
+
+
+
+
+  
+    .informacion{
+
+        
+        margin-left: 10px;
+       
+    }
+
+    .temas{
+        margin-top: 10px;
+        color: orangered;
+        font-size: 20px;
+        padding-bottom: 10px;
+
+    }
+
+    .cajaDeVideo{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        
+        margin-top: 50px;
+        margin-bottom: auto;
+        width: 500px;
+
+    
+    }
+
+    .videoTrailer{
+
+        display: flex;
+        border-radius: 10px;
+        
+        
+    }
+
+    .videoTrailer:hover{
+        
+        border: solid 1px orangered;
+        border-radius: 0;
+        transition: 0.4s;
+    }
+
