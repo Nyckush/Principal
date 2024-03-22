@@ -187,7 +187,7 @@ display: flex;
     
     }
 
-    .videoTrailer{
+              .videoTrailer{
 
         display: flex;
         border-radius: 10px;
@@ -200,5 +200,60 @@ display: flex;
         border: solid 1px orangered;
         border-radius: 0;
         transition: 0.4s;
+    }
+    .cajaDeSeries{
+
+    
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+
+    .series{
+        margin-top: 10px;
+    
+    font-size: 25px;
+    border-bottom :1px solid rgba(255, 255, 255, 0.24);
+
+   
+    }
+
+
+
+    .cajaSerieRickyMorty {
+        margin-top: 10px;
+        display: flex;
+    
+
+
+        
+    }
+    .cajaSerieRickyMorty a{
+        text-decoration: none;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+   
+    .posterRickMorty{
+        height: 360px;
+        border-radius: 25px;
+
+
+
+    }
+
+    .cajaSerieRickyMorty a:hover{
+       
+
+        color: orangered;
+    }
+    .posterRickMorty:hover{
+        border-radius: 0;
+        transition: 0.3s;
+        border: solid 1px orangered;
+        opacity: 0.8;
+        
     }
 
