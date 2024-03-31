@@ -1,10 +1,5 @@
-/*la variable  "a" = navbar
-la variable "b" = section 1 la primera 
-*/
 
 let a = document.getElementById("barraDeInicio");
-let b = document.getElementById("presentacionRickandMorty");
-
 
 let scrollPos = window.scrollY || document.documentElement.scrollTop;
 
