@@ -30,6 +30,7 @@ function aparecer() {
 window.addEventListener("scroll", aparecer);
 
 
+let btnCerrar = document.getElementsByClassName("cerrar")[0];
 
 
 
