@@ -49,9 +49,6 @@ function abrirT1 () {
 
 }
 
-
-
-
 $("#T1").on("click",abrirT1);
 
 
@@ -65,30 +62,34 @@ $("#capT1").eq(0).slideUp()
 $(".btnX").eq(0).on("click",Cerrar);
 
 
+//TEMA : NAVBAR //
+
+let eleNabvar = $("#barraDeInicio").eq(0);
+
+let scrollValorInicial = window.scrollY || document.documentElement.scrollTop;
 
 
+function barra () {
+
+  let nuevoValorScroll = window.scrollY || document.documentElement.scrollTop;
+
+   if(scrollValorInicial >nuevoValorScroll){
+
+    eleNabvar.css("top","0");
+    eleNabvar.css("position","fixed");
+    eleNabvar.css("transition","top 0.3s ease-in-out");
+    eleNabvar.css("z-index","500");
 
 
+   }
 
+   else{
+    eleNabvar.css("top","-60px")
+   }
 
+    scrollValorInicial = nuevoValorScroll;
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+window.addEventListener("scroll",barra);
 

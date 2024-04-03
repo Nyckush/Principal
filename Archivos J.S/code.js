@@ -14,6 +14,7 @@ function aparecer() {
         a.style.top = "0";
         a.style.position = "fixed";
         a.style.transition = "top 0.3s ease-in-out"; 
+        a.style.zIndex="500";
    
 
     } else {
@@ -30,7 +31,6 @@ function aparecer() {
 window.addEventListener("scroll", aparecer);
 
 
-let btnCerrar = document.getElementsByClassName("cerrar")[0];
 
 
 

@@ -1,0 +1,82 @@
+*{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #202020;
+    font-family: "Kaisei HarunoUmi", serif;
+}
+
+body::-webkit-scrollbar{
+  background-color: black;
+  width: 12px;
+
+}
+
+
+body::-webkit-scrollbar-thumb{
+  background-color: rgba(255, 0, 0, 0.9);
+  border-radius: 5px;
+  border: solid 1px rgba(255, 255, 255, 0.391);
+
+}
+
+.arriba{
+    
+    position: relative;
+     display: flex;
+ 
+ }
+
+
+.cajaInicio{
+    position: absolute;
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     height: 50px;
+    
+     background-color:rgba(10, 10, 10, 0.5);
+     border-bottom: 1px solid  rgba(13, 231, 46, 0.6);
+     border-radius: 5px;
+ }
+ .cajaInicio a {
+    display: flex;
+    text-decoration: none;
+ }
+ .cajaLogo{
+    display: flex;
+    align-items: center;
+ }
+
+ .logo{
+    margin-left: 5px;
+    width: 45px;
+    height: 40px;
+}
+
+.contenedorNombrePagina{
+    display: flex;
+    margin-left: 10px;
+   
+}
+.nombrePrincipal{
+    color:#0bf129;
+    font-size: 18px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+
+.segundaParteNombrePrincipal{
+    color: white;
+    font-size:20px ;
+    margin-top: auto;
+    margin-bottom: auto;
+   
+
+}
