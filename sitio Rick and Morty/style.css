@@ -10,6 +10,20 @@ body{
     font-family: "Kaisei HarunoUmi", serif;
 }
 
+body::-webkit-scrollbar{
+  background-color: black;
+  width: 12px;
+
+}
+
+
+body::-webkit-scrollbar-thumb{
+  background-color: rgba(255, 0, 0, 0.9);
+  border-radius: 5px;
+  border: solid 1px rgba(255, 255, 255, 0.391);
+
+}
+
 .arriba{
     
     position: relative;
@@ -97,7 +111,7 @@ body{
 
 .presentacion{
     border-bottom: solid 1px rgba(234, 226, 226, 0.3);
-    margin-bottom: 20px;
+  
     
 }
 
@@ -122,37 +136,45 @@ overflow: hidden;
 scroll-behavior: smooth;
 
 
-}
 
 
-.cajaTemporada{
-    background-color: rgba(20, 20, 20, 1);
-
-    align-items: center;
-    border-radius: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
 
 }
+
+
 .presentacionDeTemporadas{
     display: flex;
     flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: none;
+}
+.presentacionDeTemporadas:hover{
+    color: #0bf129;
 }
 
 
 .posterTemporada{
 
-    width: 250px;
-    height: 380px;
-    margin-left: 20px;
-    border-radius: 5px;
-}
-.cajaTemporada p {
+    height: 300px;
   
-    margin-left: 10px;
-
-    font-size: 20px;
+    border-radius: 20px;
+    
 }
+
+
+.posterTemporada:hover{
+    border: dotted 1px rgba(255, 0, 0, 0.9);
+    border-radius: 0;
+   transition: 0.4s;
+    opacity: 0.7;
+   cursor: pointer;
+
+}
+
+
+
 
 
 /*boton izquierda */
@@ -209,6 +231,134 @@ scroll-behavior: smooth;
     font-weight: bold;
         
   }
+
+  .temporada1{
+
+  display: none;
+  margin-top: 20px;
+  
+    flex-direction: column;
+    background-color: #151515;
+  
+   
+  }
+ 
+
+  .presentacionT1{
+   
+   display: flex;
+ border: rgba(234, 226, 226, 0.1) solid 1px;
+   background-color: rgba(255, 0, 0, 0.103);
+   
+  flex-direction: row;
+  margin-bottom: 10px;
+height: 40px;
+  position: relative;
+  align-items: center;
+  
+  border-radius: 10px;
+ 
+
+  
+  
+  }
+
+  .posterCapitulo{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-left: 20px;
+  }
+  .tema{
+
+    color: rgba(85, 255, 0, 0.9);
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .presentacionT1 p {
+    margin-left: 20px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .presentacionT1 button {
+    position: absolute;
+    right: 10px;
+    background-color: black;
+    height: 40px;
+    font-size: 20px;
+    width: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  border: none;
+   border-radius: 5px;
+    
+  }
+  .presentacionT1 button:hover{
+    background-color: rgba(255, 0, 0, 0.9);
+    font-weight: bold;
+   
+  }
+
+
+
+
+
+/*  C a p i t u l o s */
+.cap{
+ display: flex;
+ margin-bottom: 10px;
+
+ 
+ }
+  
+
+  .cap a {
+ 
+    text-decoration: none;
+    background-color: transparent;
+  
+    margin-left: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+  }
+  .cap:hover{
+    width: 99%;
+    background-color: #0bf12a18;
+    transition: 0.4s;
+    border: solid 1px rgba(255, 255, 255, 0.168);
+
+    border-radius: 15px;
+
+  }
+ 
+  .cap a:hover{    
+    color: #0bf129;
+    transition: 0.2s;
+    
+
+  }
+
+  footer{
+    border-top: 1px solid rgba(234, 226, 226, 0.3);
+    margin-top: 80px;
+  }
+
+  footer p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+  svg{
+    width: 30px;
+    height: 30px;
+  }
+
 
 
 

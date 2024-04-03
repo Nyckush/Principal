@@ -21,7 +21,7 @@ body::-webkit-scrollbar{
 
 
 body::-webkit-scrollbar-thumb{
-    background-color: rgb(255, 0, 0);
+    background-color: rgba(255, 0, 0, 0.9);
     border-radius: 5px;
     border: solid 1px rgba(255, 255, 255, 0.391);
 
@@ -46,6 +46,12 @@ body::-webkit-scrollbar-thumb{
     background-color:rgba(10, 10, 10, 0.5);
     border-bottom: 1px solid  rgba(13, 231, 46, 0.6);
     border-radius: 5px;
+}
+
+.sitioP{
+
+    display: flex;
+    text-decoration: none;
 }
 
 
@@ -98,6 +104,10 @@ display: flex;
 margin-top: auto;
 margin-bottom: auto;
 
+}
+
+.cajaListaPrincipal a {
+    text-decoration: none;
 }
 
 
